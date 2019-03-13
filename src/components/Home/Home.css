@@ -1,0 +1,83 @@
+.home-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+}
+
+.home-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.home-header h1 {
+	color: #CD2485;
+	margin: 5px;
+	font-size: 50px;
+	font-style: italic;
+	font-family: 'American Typewriter', sans-serif;
+	font-weight: 500;
+}
+
+.home-header h2 {
+	margin: 5px;
+}
+
+#MakeItUp {
+	font-size: 75px;
+}
+
+.home-imagePlaceholder {
+	height: 524px;
+	width: 1060px;
+	margin: 50px;
+	background-color: grey;
+}
+
+.home-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	color: black;
+}
+
+.home-imagePlaceholderTwo {
+	width: 920px;
+	height: 420px;
+	background: grey;
+	margin: 50px;
+}
+
+.home-info p {
+	width: 920px;
+	margin-bottom: 50px;
+}
+
+.home-links {
+	height: 300px;
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.home-linkbox {
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.home-linkbox h1{
+	color: goldenrod;
+}
+
+.home-linkImagePlaceholder {
+	width: 200px;
+	height: 200px;
+	background: grey;
+	border-radius: 50%;
+}
